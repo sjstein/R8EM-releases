@@ -43,6 +43,11 @@ Enhancements can be individual files (`.tx8`, `.tkb`, `.wav`) or **ZIP archives*
 
 ## Initial Setup
 
+### NOTE: Ideally you will start from a fresh, unmodified (enhanced) version of Run8. 
+- You can verify the integrity of your installation at any time by choosing `File -> Compare to base R8 installation`.
+	- This will scan your existing installation and report any files that are either missing, or don't match their original signature.
+	- Files that are missing may just indicate content you don't currently own. 
+
 ### 1. Place R8EM in its own folder
 
 R8EM is a self-contained application. Copy the three files from the release ZIP into a dedicated folder of your choice:
@@ -85,7 +90,7 @@ Use **Enhancements → Add Enhancement(s)** (or drag files) to copy new enhancem
 
 ## Suggested Workflow
 
-### First-time setup with enhancements
+### First-time setup if you already have enhancements downloaded
 
 1. Complete the [Initial Setup](#initial-setup) steps above.
 2. Copy your enhancement files (or ZIP archives) into the `Enhancement Library` folder.
