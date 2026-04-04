@@ -8,7 +8,7 @@
 
 ## Downloading R8EM
 
-The latest release can always be found on the right side of this repository. Within each release, you should find a zip file. Download that file and unzip the files within into a separate directory (for example, C:\R8EM)
+The latest release can always be found on the right side of this repository (click on the `Latest` tag). Within each release, you should find a zip file. Download that file and unzip the files within into a separate directory (for example, C:\R8EM)
 
 R8EM will check for updates each time it starts.
 
