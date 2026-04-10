@@ -50,7 +50,7 @@ Enhancements can be individual files (`.tx8`, `.tkb`, `.wav`) or **ZIP archives*
 
 ### 1. Place R8EM in its own folder
 
-R8EM is a self-contained application. Copy the three files from the release ZIP into a dedicated folder of your choice:
+R8EM is a self-contained application. Extract / Copy the three files from the release ZIP into a dedicated folder of your choice:
 
 - `R8EM.exe` — the main application
 - `UpdaterHelper.exe` — handles automatic updates (must remain in the same folder)
@@ -102,7 +102,7 @@ Use **Enhancements → Add Enhancement(s)** (or drag files) to copy new enhancem
 ### Adding enhancements to your library 
 
 1. Download enchancements from any of the various sources found online. They can be indvidual, or grouped within a zip file. 
-2. In the Enhancements menu choose **Add Enhancement(s)...**
+2. In the Enhancements dropdown choose **Add Enhancement(s)...**
 3. Select the file(s) you just downloaded and press "Open". Those enhancements will be **copied** to the _Enhancement Library_ directory within the R8EM installation directory.
 4. (Optional) - Delete the original enhancements you just downloaded - an exact copy now lives within the _Enchancement Library_ directory.
 
