@@ -35,9 +35,17 @@ R8EM supports the following enhancement types:
 | Terrain Texture | Ground and terrain texture replacements |
 | Track Texture | Track and rail texture replacements |
 | Vegetation Texture | Tree and vegetation texture replacements |
-| Splendid Asset | Replacements for Splendid Visual asset files |
+| Splendid Asset | New or replacement Splendid Visual asset files (`.rn8`, `.tx8`) |
+| Terrain Tile | Replacement terrain tiles (`.tr4`) for one region |
 
-Enhancements can be individual files (`.tx8`, `.tkb`, `.wav`) or **ZIP archives** containing one or more enhancement files.
+Enhancements can be individual files (`.tx8`, `.tkb`, `.wav`, `.rn8`, `.tr4`) or **ZIP archives** containing one or more enhancement files.
+
+### Terrain tile and scenery packs
+
+A pack may contain both assets and tiles. Put assets in a `Splendid Assets` folder and tiles in a `TerrainTiles` folder inside the ZIP; R8EM detects the folders and sets the type to **Multiple**.
+
+- Assets install into `Content\V3Routes\Splendid Assets`. Existing files are backed up first; new assets are simply added and removed again on uninstall.
+- Tiles install into `Content\V3Routes\Regions\<region>\TerrainTiles`. Tile filenames are the same in every region, so R8EM asks **which region the pack belongs to** when you install it (one region per pack). Tile backups are kept per region under `BACKUPS\Terrain Tile\<region>`.
 
 ---
 
